@@ -1,0 +1,28 @@
+{
+    "name": "developer/calculator-git",
+    "description": "a simple program of addition, substraction, multiplication, division. It is a simple calculator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swarup Saha",
+            "email": "swarup@1osolutions.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CalculatorGit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CalculatorGit\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.3"
+    }
+}
